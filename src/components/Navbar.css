@@ -1,0 +1,15 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Alinha os itens nas extremidades */
+    background-color: #000000; /* Cor de fundo da navbar */
+    color: white; /* Cor do texto */
+    position: fixed; /* Fixa a navbar no topo da página */
+    width: 100%; /* Faz com que a navbar ocupe toda a largura */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+    font-style: italic;
+    
+  }
+
+

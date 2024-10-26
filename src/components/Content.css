@@ -1,0 +1,73 @@
+/* src/components/Content.css */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  max-width: 100%;
+  height: 150vh; /* Pode ser ajustado conforme necessário */
+  margin-left: 480px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+
+.content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* Barra de pesquisa centralizada */
+.search-container {
+  display: flex; /* Flexbox para centralizar os elementos */
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  margin-bottom: 20px;
+  height: 100vh; /* Faz a barra de pesquisa ocupar a altura total da tela */
+}
+
+/* Ajustes para o container de input */
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  display: flex;
+  padding-right: 420px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  right: 0;
+  display: flex;
+  margin-left: 10px;
+  top: 0;
+  padding: 10px 35px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-right: 400px;
+  width: 100%;
+  text-align: center;
+}
