@@ -7,7 +7,6 @@
   align-items: center;
   padding: 30px;
   max-width: 100%;
-  height: 150vh; /* Pode ser ajustado conforme necessário */
   margin-left: 480px;
   text-align: center;
   border-radius: 8px;
@@ -42,6 +41,7 @@
   width: 100%;
   max-width: 400px;
   margin-bottom: 20px;
+  margin-top: 200px;
   display: flex;
   padding-right: 420px;
 }
@@ -70,4 +70,16 @@
   margin-right: 400px;
   width: 100%;
   text-align: center;
+}
+
+
+.mensagem-erro {
+  color: red; /* Opcional: destaque visual */
+  margin-top: 20px;
+padding-right: 400px;
+}
+
+
+.navbar h1{
+  position: relative;
 }
